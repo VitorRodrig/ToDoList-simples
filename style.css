@@ -1,0 +1,53 @@
+body{
+    background-color: aquamarine;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.caixa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa .caixinha h1{
+    text-shadow: 1px 1px 8px black;
+    color: white;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    display: block;
+    border: none;
+    text-align: center;
+}
+ input:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.ul{
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: 40%;
+}
+#btnRemoverTarefa{
+    display: none;
+}
+
+#btnRemoverTarefa button{
+    margin-top: 5px;
+    padding: 10px;
+    border: 0;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #c7170a;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
